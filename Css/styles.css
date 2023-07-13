@@ -1,0 +1,104 @@
+@font-face {
+    font-family:"Lato" ;
+    src: url(../Assets/fuentes/Lato-Regular.ttf);
+}
+
+
+*{margin: 0;
+padding: 0;}
+
+.encabezado { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+align="center";
+background-color: rgb(31, 247, 247);
+margin: 30 px;
+padding: 10px;
+}
+
+.piedepágina {background-color: rgb(31, 247, 247);
+    align-content: center;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    bottom: 0;
+    width: 100%
+  
+}
+
+
+/* Para quitar las viñetas, centrar texto y que ocupe todo el ancho */
+nav ul 
+{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+/* Para horizontalizar el menú */
+nav ul li {
+        width: 100%;
+        }
+
+
+/* para quitar elsubrayado al menú y ponelo como bloque */
+nav ul li a
+{
+    text-decoration: none;
+    display: block;
+     
+    
+}
+
+
+
+.main {display: flex;
+background-color: beige;}
+
+.imagenes {width: 350px;
+    margin: 0 auto;
+    display: block;}
+
+.titulosh1 {font-size: 70px;
+    text-align: center;}
+
+.titulosh2 {font-size: 50px;
+text-align: center;}
+
+.titulosh3 {font-size: 30px;
+    text-align: center;}
+
+.textos {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px ;
+}
+
+.claseccion {
+    margin: 50px;
+    padding: 10px;
+}
+.listadoensayos {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 30 px;
+    line-height: 2em;
+padding: 10px;
+text-align: left;
+}
+
+.iframe {
+    margin: 0 auto;
+    display: block;}
+
+.form {
+    line-height: 4em;
+   }   
+
+.boton {
+    text-align: right;
+}
+
+.Consulta {
+    vertical-align: top;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px ;
+    margin-top: 0;
+
+}
